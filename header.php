@@ -84,9 +84,10 @@ $tik_url = $tiktok ?? '';
         }
 
         .logo-img {
-            height: 98px;
-            max-height: 110px;
-            max-width: 310px;
+            height: 120px;
+            min-height: 120px;
+            max-height: 132px;
+            max-width: 360px;
             width: auto;
             display: block;
             object-fit: contain;
@@ -403,8 +404,9 @@ $tik_url = $tiktok ?? '';
             }
 
             .logo-img {
-                height: 78px;
-                max-height: 82px;
+                height: 96px;
+                min-height: 96px;
+                max-height: 102px;
             }
 
             .header-container {

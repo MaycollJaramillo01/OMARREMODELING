@@ -62,10 +62,10 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
 <style>
     :root {
         /* Variables dinámicas desde PHP */
-        --f-bg: <?php echo $BrandColors['secondary']; ?>;      /* Fondo Oscuro */
-        --f-text: #F5F2EE;                                     /* Texto Claro */
-        --f-accent: <?php echo $BrandColors['accent']; ?>;     /* Acento (Dorado/Color Principal) */
-        --f-border: rgba(255, 255, 255, 0.1);
+        --f-bg: #ffffff;                                       /* Fondo Claro */
+        --f-text: var(--brand-secondary);                                     /* Texto Claro */
+        --f-accent: var(--brand-primary);                      /* Acento */
+        --f-border: rgba(31, 42, 54, 0.14);
     }
 
     .site-footer {
@@ -75,7 +75,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
         font-family: var(--font-body);
         position: relative;
         overflow: hidden;
-        border-top: 5px solid var(--f-accent); /* Línea sólida premium arriba */
+        border-top: 1px solid var(--f-border); /* Línea sólida premium arriba */
     }
 
     .footer-container {
@@ -109,7 +109,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     .f-desc {
         font-size: 0.95rem;
         line-height: 1.6;
-        opacity: 0.7;
+        color: rgba(31, 42, 54, 0.82);
         margin-bottom: 30px;
         max-width: 300px;
     }
@@ -121,13 +121,13 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
 
     .f-social-btn {
         width: 40px; height: 40px;
-        background: rgba(255,255,255,0.05);
+        background: rgba(31, 42, 54, 0.05);
         display: flex; align-items: center; justify-content: center;
         border-radius: 4px; /* Cuadrado redondeado para look construcción */
-        color: #fff;
+        color: var(--f-text);
         text-decoration: none;
         transition: 0.3s;
-        border: 1px solid transparent;
+        border: 1px solid rgba(31, 42, 54, 0.12);
     }
 
     .f-social-btn img {
@@ -138,7 +138,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     }
 
     .f-social-btn:hover {
-        background: transparent;
+        background: rgba(0, 0, 0, 0.02);
         border-color: var(--f-accent);
         color: var(--f-accent);
         transform: translateY(-3px);
@@ -149,7 +149,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     .f-links-2 { grid-area: links2; }
 
     .f-title {
-        color: #fff;
+        color: var(--f-text);
         font-size: 1.1rem;
         font-weight: 700;
         margin-bottom: 25px;
@@ -166,7 +166,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     .f-list li { margin-bottom: 12px; }
 
     .f-list a {
-        color: rgba(255,255,255,0.7);
+        color: rgba(31, 42, 54, 0.78);
         text-decoration: none;
         transition: 0.3s;
         font-size: 0.95rem;
@@ -196,7 +196,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
 
     .c-text span, .c-text a {
         display: block;
-        color: rgba(255,255,255,0.8);
+        color: rgba(31, 42, 54, 0.84);
         text-decoration: none;
         line-height: 1.5;
         font-size: 0.95rem;
@@ -207,7 +207,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     .c-label {
         font-size: 0.75rem;
         text-transform: uppercase;
-        opacity: 0.5;
+        color: rgba(31, 42, 54, 0.6);
         margin-bottom: 2px;
         display: block;
     }
@@ -222,7 +222,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
         flex-wrap: wrap;
         gap: 20px;
         font-size: 0.85rem;
-        color: rgba(255,255,255,0.5);
+        color: rgba(31, 42, 54, 0.68);
     }
 
     .legal-badges {
@@ -233,7 +233,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
     .legal-badges span {
         color: var(--f-accent);
         font-weight: 600;
-        background: rgba(255,255,255,0.05);
+        background: rgba(31, 42, 54, 0.05);
         padding: 4px 10px;
         border-radius: 4px;
     }
@@ -302,7 +302,7 @@ $footerPhoneLabel2 = trim((string) ($Phone2Name ?? 'Secondary'));
                 <a href="<?php echo $BaseURL; ?>">
                     <img src="assets/img/logo.png" alt="<?php echo $Company; ?>" class="f-logo">
                 </a>
-                <p class="f-desc" style="color:#fff;">
+                <p class="f-desc">
                     <?php echo htmlspecialchars($FooterCopy['desc'] ?? ''); ?>
                 </p>
                 <?php if (!empty($footerSocialItems)): ?>

@@ -38,9 +38,9 @@ $tik_url = $tiktok ?? '';
         <?php echo $BrandCSSVars; ?>
 
         .site-header {
-            background: var(--brand-secondary);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+            background: #ffffff;
+            border-bottom: 1px solid rgba(31, 42, 54, 0.14);
+            box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -57,8 +57,8 @@ $tik_url = $tiktok ?? '';
 
         .header-main {
             padding: 8px 0;
-            background: var(--brand-secondary);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+            background: #ffffff;
+            border-bottom: 1px solid rgba(31, 42, 54, 0.1);
         }
 
         .header-container {
@@ -146,7 +146,7 @@ $tik_url = $tiktok ?? '';
             line-height: 1;
             min-height: 40px;
             text-decoration: none;
-            color: #ffffff;
+            color: var(--brand-secondary);
             font-weight: 600;
             font-size: 0.95rem;
             transition: color 0.2s ease;
@@ -164,7 +164,7 @@ $tik_url = $tiktok ?? '';
 
         .main-nav > ul > li > a:hover,
         .main-nav > ul > li > a:focus {
-            color: #ffffff;
+            color: var(--brand-primary);
         }
 
         .has-dropdown {
@@ -308,8 +308,8 @@ $tik_url = $tiktok ?? '';
             width: 36px;
             height: 36px;
             border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
+            background-color: rgba(31, 42, 54, 0.06);
+            color: var(--brand-secondary);
             display: flex; /* Flex para centrar el icono */
             align-items: center;
             justify-content: center;
@@ -317,12 +317,12 @@ $tik_url = $tiktok ?? '';
             transition: all 0.3s ease;
             font-size: 1rem;
             flex-shrink: 0; /* Evita que se aplasten */
-            border: 1px solid rgba(255, 255, 255, 0.24);
+            border: 1px solid rgba(31, 42, 54, 0.2);
         }
 
         .social-icon-link:hover {
-            background-color: var(--brand-accent);
-            color: #111;
+            background-color: var(--brand-primary);
+            color: #ffffff;
             transform: translateY(-2px);
         }
 
@@ -356,9 +356,9 @@ $tik_url = $tiktok ?? '';
             display: none;
             width: 44px;
             height: 44px;
-            border: 1px solid rgba(255, 255, 255, 0.34);
+            border: 1px solid rgba(31, 42, 54, 0.28);
             border-radius: 10px;
-            background: rgba(255, 255, 255, 0.08);
+            background: #ffffff;
             align-items: center;
             justify-content: center;
             gap: 4px;
@@ -368,7 +368,7 @@ $tik_url = $tiktok ?? '';
         .mobile-toggle span {
             width: 22px;
             height: 2px;
-            background: #ffffff;
+            background: var(--brand-secondary);
             display: block;
             border-radius: 2px;
         }
@@ -394,7 +394,7 @@ $tik_url = $tiktok ?? '';
             background: none;
             border: none;
             font-size: 1.5rem;
-            color: #ffffff;
+            color: var(--brand-secondary);
         }
 
         @media (max-width: 991px) {
@@ -421,7 +421,7 @@ $tik_url = $tiktok ?? '';
                 right: 0;
                 width: 85%;
                 height: 100vh;
-                background: var(--brand-secondary);
+                background: #ffffff;
                 padding: 28px 20px;
                 transition: transform 0.3s ease;
                 transform: translateX(110%);
@@ -463,18 +463,18 @@ $tik_url = $tiktok ?? '';
                 display: block;
                 padding: 14px 4px;
                 width: 100%;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-                color: #ffffff !important;
+                border-bottom: 1px solid rgba(31, 42, 54, 0.14);
+                color: var(--brand-secondary) !important;
                 opacity: 1 !important;
             }
 
             .dropdown li a {
-                color: #ffffff;
+                color: var(--brand-secondary);
             }
 
             .dropdown li a:hover {
-                background: rgba(255, 255, 255, 0.08);
-                color: var(--brand-accent);
+                background: rgba(31, 42, 54, 0.06);
+                color: var(--brand-primary);
             }
 
             .dropdown {
@@ -514,7 +514,7 @@ $tik_url = $tiktok ?? '';
 
             .dropdown-group {
                 border: none;
-                border-top: 1px solid rgba(255, 255, 255, 0.18);
+                border-top: 1px solid rgba(31, 42, 54, 0.14);
                 border-radius: 0;
                 padding: 10px 0 8px;
                 background: transparent;
@@ -523,7 +523,7 @@ $tik_url = $tiktok ?? '';
             .dropdown-group__title {
                 margin-bottom: 4px;
                 font-size: 0.72rem;
-                color: var(--brand-accent);
+                color: var(--brand-primary);
             }
 
             .dropdown-group__list li a {
@@ -574,9 +574,9 @@ $tik_url = $tiktok ?? '';
                 width: 36px !important;         /* Restaura el ancho */
                 border-bottom: none !important; /* Quita la l\u00ednea de abajo */
                 padding: 0 !important;          /* Quita el padding de men\u00fa */
-                background-color: rgba(255, 255, 255, 0.1);
-                color: #ffffff !important;
-                border: 1px solid rgba(255, 255, 255, 0.24) !important;
+                background-color: rgba(31, 42, 54, 0.06);
+                color: var(--brand-secondary) !important;
+                border: 1px solid rgba(31, 42, 54, 0.2) !important;
             }
         }
     </style>

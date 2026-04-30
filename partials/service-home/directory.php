@@ -1,8 +1,8 @@
 <section class="shm-directory" id="service-directory" data-shm-root>
   <div class="shm-shell">
     <header class="shm-directory__head" data-aos="fade-up">
-      <h2>Browse Every Service</h2>
-      <p>Search by keyword, filter by category, and open the exact service request from one place.</p>
+      <h2>Fence and Deck Services</h2>
+      <p>Choose the service that matches your project and contact BRD Services for a clear free estimate.</p>
     </header>
 
     <div class="shm-controls" aria-label="Service controls">
@@ -43,7 +43,7 @@
           $serviceDesc = trim((string) ($service['ui_desc'] ?? ''));
           $serviceGroup = trim((string) ($service['ui_group'] ?? 'General Services'));
           $serviceGroupKey = trim((string) ($service['ui_group_key'] ?? 'general-services'));
-          $serviceImage = trim((string) ($service['ui_image'] ?? 'assets/img/stock/remodel-main.jpg'));
+          $serviceImage = trim((string) ($service['ui_image'] ?? 'assets/img/truck.jpeg'));
           $serviceIcon = trim((string) ($service['ui_icon'] ?? 'fa-solid fa-screwdriver-wrench'));
           $serviceCode = trim((string) ($service['ui_code'] ?? 'SVC-00'));
           $serviceHref = trim((string) ($service['ui_href'] ?? 'contact.php'));

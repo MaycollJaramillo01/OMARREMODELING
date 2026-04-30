@@ -62,13 +62,10 @@ if (!function_exists('serviceHomeIcon')) {
   function serviceHomeIcon($slug)
   {
     $icons = [
-      'bathroom-remodeling' => 'fa-solid fa-bath',
-      'flooring-remodeling' => 'fa-solid fa-grip-lines',
-      'kitchen-remodeling' => 'fa-solid fa-kitchen-set',
-      'painting' => 'fa-solid fa-paint-roller',
-      'door-installation-replacement' => 'fa-solid fa-door-open',
-      'wood-flooring' => 'fa-solid fa-layer-group',
-      'deck-construction-repair' => 'fa-solid fa-bridge'
+      'fence-installation-repair' => 'fa-solid fa-border-all',
+      'deck-build-repair' => 'fa-solid fa-hammer',
+      'fence-staining' => 'fa-solid fa-brush',
+      'deck-staining' => 'fa-solid fa-paint-roller'
     ];
 
     $slug = trim((string) $slug);
@@ -92,14 +89,31 @@ if (!function_exists('serviceHomeImage')) {
     ];
     $exts = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
 
+    $serviceImageMap = [
+      'fence-installation-repair' => 'assets/img/new/fence-installation-repair.jpeg',
+      'deck-build-repair' => 'assets/img/new/deck-build-repair.jpeg',
+      'fence-staining' => 'assets/img/new/fence-staining.jpeg',
+      'deck-staining' => 'assets/img/new/deck-staining.jpeg'
+    ];
+
+    $imageKeys = [];
+    if ($slug !== '') $imageKeys[] = $slug;
+    if ($serviceName !== '') $imageKeys[] = serviceHomeSlugify($serviceName);
+    foreach (array_values(array_unique(array_filter($imageKeys))) as $imageKey) {
+      if (empty($serviceImageMap[$imageKey])) continue;
+      $mappedRel = $serviceImageMap[$imageKey];
+      $mappedAbs = __DIR__ . '/../../' . str_replace('/', DIRECTORY_SEPARATOR, $mappedRel);
+      if (!is_file($mappedAbs)) continue;
+      $version = (string) @filemtime($mappedAbs);
+      if ($version === '' || $version === '0') return $mappedRel;
+      return $mappedRel . '?v=' . $version;
+    }
+
     $aliasMap = [
-      'bathroom-remodeling' => ['kitchen-bathroom-remodeling'],
-      'flooring-remodeling' => ['flooring-installation'],
-      'kitchen-remodeling' => ['kitchen-bathroom-remodeling'],
-      'painting' => ['interior-exterior-painting'],
-      'door-installation-replacement' => ['door-window-installation-replacement'],
-      'wood-flooring' => ['flooring-installation'],
-      'deck-construction-repair' => ['deck-installation-repair']
+      'fence-installation-repair' => ['fence-installation', 'fence-repair'],
+      'deck-build-repair' => ['deck-build', 'deck-repair'],
+      'fence-staining' => ['fence-stain', 'wood-fence-staining'],
+      'deck-staining' => ['deck-stain', 'wood-deck-staining']
     ];
 
     $labels = [];
@@ -187,7 +201,7 @@ if (!function_exists('serviceHomeImage')) {
       }
     }
 
-    return 'assets/img/stock/remodel-main.jpg';
+    return 'assets/img/new/deck-build-repair.jpeg';
   }
 }
 

@@ -1,10 +1,10 @@
 /* High Fidelity McCown Gordon Clone - Custom Branding */
 :root {
     /* Mapped from text.php $BrandColors (overwritten inline by PHP) */
-    --brand-primary: #2A2A2D;
-    --brand-secondary: #101012;
-    --brand-accent: #E31E24;
-    --brand-neutral: #ECEDEF;
+    --brand-primary: #9A5B2B;
+    --brand-secondary: #1F2428;
+    --brand-accent: #D7A24A;
+    --brand-neutral: #F4EFE6;
     --brand-white: #FFFFFF;
 
     /* Legacy aliases kept for compatibility throughout the sheet */
@@ -45,7 +45,7 @@
     --text-soft: color-mix(in srgb, #000 48%, var(--brand-secondary) 32%);
     --heading-color: color-mix(in srgb, #000 62%, var(--brand-primary) 38%);
     --link-color: var(--brand-primary);
-    --shadow-soft: 0 12px 40px color-mix(in srgb, rgba(0,0,0,0.2) 70%, rgba(27,94,32,0.15) 30%);
+    --shadow-soft: 0 12px 40px color-mix(in srgb, rgba(0,0,0,0.2) 76%, rgba(154,91,43,0.14) 24%);
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     --header-height: 76px;
     --container-max: 1360px;
@@ -54,9 +54,9 @@
     --font-stack: var(--font-body);
 
     /* Gradients aligned to brand */
-    --gradient-hero: linear-gradient(135deg, color-mix(in srgb, var(--brand-primary) 85%, #000 15%) 0%, color-mix(in srgb, var(--brand-secondary) 90%, #000 10%) 45%, color-mix(in srgb, var(--brand-primary) 85%, #000 15%) 100%);
-    --gradient-services: linear-gradient(135deg, color-mix(in srgb, var(--brand-secondary) 85%, #000 15%) 0%, color-mix(in srgb, var(--brand-primary) 80%, #000 20%) 45%, color-mix(in srgb, var(--brand-secondary) 85%, #000 15%) 100%);
-    --gradient-about: linear-gradient(135deg, color-mix(in srgb, var(--brand-secondary) 80%, #000 20%) 0%, color-mix(in srgb, var(--brand-primary) 78%, #000 22%) 45%, color-mix(in srgb, var(--brand-secondary) 80%, #000 20%) 100%);
+    --gradient-hero: linear-gradient(135deg, color-mix(in srgb, var(--brand-secondary) 92%, #000 8%) 0%, color-mix(in srgb, var(--brand-primary) 54%, var(--brand-secondary) 46%) 46%, color-mix(in srgb, var(--brand-secondary) 88%, #000 12%) 100%);
+    --gradient-services: linear-gradient(135deg, color-mix(in srgb, var(--brand-secondary) 90%, #000 10%) 0%, color-mix(in srgb, var(--brand-primary) 42%, var(--brand-secondary) 58%) 50%, color-mix(in srgb, var(--brand-secondary) 88%, #000 12%) 100%);
+    --gradient-about: linear-gradient(135deg, color-mix(in srgb, var(--brand-secondary) 86%, #000 14%) 0%, color-mix(in srgb, var(--brand-primary) 34%, var(--brand-neutral) 66%) 48%, color-mix(in srgb, var(--brand-secondary) 82%, #000 18%) 100%);
     --gradient-soft: linear-gradient(180deg, var(--brand-white) 0%, var(--neutral-50) 100%);
     --gradient-muted: linear-gradient(135deg, var(--neutral-200), var(--neutral-50));
 }

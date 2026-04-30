@@ -1,81 +1,22 @@
 <?php
-$defaultHero = $PageHeroCopy['default'] ?? ['title' => $page_name ?? '', 'desc' => '', 'bg' => ''];
+$defaultHero = $PageHeroCopy['default'] ?? ['title' => $page_name ?? '', 'desc' => '', 'bg' => 'assets/img/new/site-32.jpeg'];
 $heroTitle = $pageHeroTitle ?? ($page_name ?? ($defaultHero['title'] ?? ''));
 $heroKey = 'default';
-
-if (stripos($heroTitle, 'Project') !== false) {
-    $heroKey = 'projects';
-} elseif (stripos($heroTitle, 'About') !== false) {
-    $heroKey = 'about';
-} elseif (stripos($heroTitle, 'Contact') !== false) {
-    $heroKey = 'contact';
-} elseif (stripos($heroTitle, 'Review') !== false || stripos($heroTitle, 'Testimonial') !== false) {
-    $heroKey = 'reviews';
-} elseif (stripos($heroTitle, 'Other') !== false) {
-    $heroKey = 'other';
-}
-
+if (stripos($heroTitle, 'Project') !== false) $heroKey = 'projects';
+elseif (stripos($heroTitle, 'About') !== false) $heroKey = 'about';
+elseif (stripos($heroTitle, 'Contact') !== false) $heroKey = 'contact';
+elseif (stripos($heroTitle, 'Review') !== false || stripos($heroTitle, 'Testimonial') !== false) $heroKey = 'reviews';
+elseif (stripos($heroTitle, 'Other') !== false) $heroKey = 'other';
 $heroData = $PageHeroCopy[$heroKey] ?? $defaultHero;
 $heroTitle = $pageHeroTitle ?? ($heroData['title'] ?? $heroTitle);
 $heroDesc = $pageHeroSubtitle ?? ($heroData['desc'] ?? '');
-$heroBg = $pageHeroImage ?? ($heroData['bg'] ?? 'assets/img/hero/hero1.jpg');
+$heroBg = $pageHeroImage ?? ($heroData['bg'] ?? 'assets/img/new/site-32.jpeg');
 ?>
 
-<section class="page-hero section" style="background-image: url('<?php echo $heroBg; ?>');">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content text-center">
-        <span class="eyebrow"><?php echo $TypeOfService; ?></span>
-        <h1><?php echo $heroTitle; ?></h1>
-        <p class="lead"><?php echo $heroDesc; ?></p>
-    </div>
+<section class="brd-page-hero" style="--hero-bg: url('<?php echo htmlspecialchars($heroBg, ENT_QUOTES, 'UTF-8'); ?>');">
+  <div class="container">
+    <span class="brd-kicker"><?php echo htmlspecialchars((string) ($TypeOfService ?? 'Fence and Deck Services'), ENT_QUOTES, 'UTF-8'); ?></span>
+    <h1><?php echo htmlspecialchars((string) $heroTitle, ENT_QUOTES, 'UTF-8'); ?></h1>
+    <?php if ($heroDesc !== ''): ?><p><?php echo htmlspecialchars((string) $heroDesc, ENT_QUOTES, 'UTF-8'); ?></p><?php endif; ?>
+  </div>
 </section>
-
-<style>
-.page-hero {
-    position: relative;
-    padding: 160px 0 100px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--brand-white);
-    margin-bottom: 0;
-}
-
-.page-hero .hero-overlay{
-  position:absolute;
-  inset:0;
-
-  /* Overlay premium: oscuro -> slate -> brass suave */
-  background: linear-gradient(
-    135deg,
-    rgba(<?php echo $BrandColors['secondary_rgb']; ?>, 0.92) 0%,
-    rgba(<?php echo $BrandColors['primary_rgb']; ?>,   0.86) 55%,
-    rgba(<?php echo $BrandColors['accent_rgb']; ?>,    0.28) 100%
-  );
-}
-
-
-.page-hero .hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.page-hero h1 {
-    color: var(--brand-white);
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-}
-
-.page-hero p {
-    color: rgba(255,255,255,0.9);
-    font-size: 1.2rem;
-}
-
-.page-hero .eyebrow {
-    color: var(--brand-accent);
-    margin-bottom: 16px;
-    justify-content: center;
-}
-</style>

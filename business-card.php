@@ -27,7 +27,7 @@ $googleRef = trim((string) ($google ?? ''));
 $messengerRef = trim((string) ($messenger ?? ''));
 $googleMap = (string) ($GoogleMap ?? '');
 
-$logoPath = 'assets/img/logo.png';
+$brandLogoHref = 'assets/img/logo.png';
 $domainRef = trim((string) ($Domain ?? ($BaseURL ?? '')));
 if ($domainRef === '') $domainRef = '#';
 $domainLabel = preg_replace('#^https?://#i', '', $domainRef);
@@ -134,8 +134,8 @@ if (isset($_GET['vcard'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($company, ENT_QUOTES, 'UTF-8'); ?>  Business Card</title>
     <meta name="description" content="Digital business card for <?php echo htmlspecialchars($company, ENT_QUOTES, 'UTF-8'); ?>">
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
-    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="icon" type="image/png" href="<?php echo $brandLogoHref; ?>">
+    <link rel="apple-touch-icon" href="<?php echo $brandLogoHref; ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
@@ -239,22 +239,22 @@ if (isset($_GET['vcard'])) {
         }
 
         .bclogowrap {
-            width: 96px;
-            height: 96px;
-            border-radius: 18px;
-            background: var(--brand-white);
-            border: 1px solid rgba(var(--brand-secondary-rgb), 0.14);
+            width: 150px;
+            height: 82px;
+            border-radius: 16px;
+            background: #fff;
+            border: 1px solid rgba(var(--brand-accent-rgb), 0.22);
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 8px;
         }
 
-        .bclogowrap img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
+        .bclogoimg {
             display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .bcbrand h1 {
@@ -640,7 +640,7 @@ if (isset($_GET['vcard'])) {
 
                 <div class="bcbrandtop">
                     <div class="bclogowrap">
-                        <img src="<?php echo htmlspecialchars($logoPath, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($company, ENT_QUOTES, 'UTF-8'); ?> logo">
+                        <img class="bclogoimg" src="<?php echo $brandLogoHref; ?>" alt="<?php echo htmlspecialchars($company, ENT_QUOTES, 'UTF-8'); ?>">
                     </div>
                     <h1>
                         <?php echo htmlspecialchars($company, ENT_QUOTES, 'UTF-8'); ?>

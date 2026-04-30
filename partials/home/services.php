@@ -19,13 +19,13 @@ if (empty($categoryConfig)) {
   $categoryConfig = [
     [
       'label' => 'Core Services',
-      'summary_slug' => 'bathroom-remodeling',
-      'service_slugs' => ['bathroom-remodeling', 'flooring-remodeling', 'kitchen-remodeling', 'painting', 'door-installation-replacement']
+      'summary_slug' => 'build-repair',
+      'service_slugs' => ['fence-installation-repair', 'deck-build-repair']
     ],
     [
-      'label' => 'Other Services',
-      'summary_slug' => 'other-services',
-      'service_slugs' => ['wood-flooring', 'deck-construction-repair']
+      'label' => 'Staining Services',
+      'summary_slug' => 'staining-services',
+      'service_slugs' => ['fence-staining', 'deck-staining']
     ]
   ];
 }
@@ -68,14 +68,31 @@ if (!function_exists('homeServicesMinimalImage')) {
     ];
     $exts = ['jpg', 'jpeg', 'png', 'webp', 'avif'];
 
+    $serviceImageMap = [
+      'fence-installation-repair' => 'assets/img/new/fence-installation-repair.jpeg',
+      'deck-build-repair' => 'assets/img/new/deck-build-repair.jpeg',
+      'fence-staining' => 'assets/img/new/fence-staining.jpeg',
+      'deck-staining' => 'assets/img/new/deck-staining.jpeg'
+    ];
+
+    $imageKeys = [];
+    if ($serviceSlug !== '') $imageKeys[] = $serviceSlug;
+    if ($serviceName !== '') $imageKeys[] = homeServicesMinimalSlugify($serviceName);
+    foreach (array_values(array_unique(array_filter($imageKeys))) as $imageKey) {
+      if (empty($serviceImageMap[$imageKey])) continue;
+      $mappedRel = $serviceImageMap[$imageKey];
+      $mappedAbs = __DIR__ . '/../../' . str_replace('/', DIRECTORY_SEPARATOR, $mappedRel);
+      if (!is_file($mappedAbs)) continue;
+      $version = (string) @filemtime($mappedAbs);
+      if ($version === '' || $version === '0') return $mappedRel;
+      return $mappedRel . '?v=' . $version;
+    }
+
     $aliasMap = [
-      'bathroom-remodeling' => ['kitchen-bathroom-remodeling'],
-      'flooring-remodeling' => ['flooring-installation'],
-      'kitchen-remodeling' => ['kitchen-bathroom-remodeling'],
-      'painting' => ['interior-exterior-painting'],
-      'door-installation-replacement' => ['door-window-installation-replacement'],
-      'wood-flooring' => ['flooring-installation'],
-      'deck-construction-repair' => ['deck-installation-repair']
+      'fence-installation-repair' => ['fence-installation', 'fence-repair'],
+      'deck-build-repair' => ['deck-build', 'deck-repair'],
+      'fence-staining' => ['fence-stain', 'wood-fence-staining'],
+      'deck-staining' => ['deck-stain', 'wood-deck-staining']
     ];
 
     $labelCandidates = [];
@@ -168,7 +185,7 @@ if (!function_exists('homeServicesMinimalImage')) {
       }
     }
 
-    return 'assets/img/stock/remodel-main.jpg';
+    return 'assets/img/new/deck-build-repair.jpeg';
   }
 }
 

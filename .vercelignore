@@ -1,0 +1,5 @@
+.git
+.php-server.*.log
+node_modules
+npm-debug.log*
+yarn-error.log*

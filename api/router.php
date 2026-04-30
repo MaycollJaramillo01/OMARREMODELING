@@ -22,7 +22,14 @@ $requestUri = (string)($_SERVER['REQUEST_URI'] ?? '/');
 $path = parse_url($requestUri, PHP_URL_PATH);
 $path = is_string($path) ? $path : '/';
 $path = '/' . ltrim($path, '/');
+$path = rawurldecode($path);
 $requested = trim($path, '/');
+$projectRoot = dirname(__DIR__);
+
+$staticCandidate = $projectRoot . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $requested);
+if ($requested !== '' && is_file($staticCandidate)) {
+    return false;
+}
 
 if ($requested === '') {
     $requested = 'index.php';
@@ -45,7 +52,6 @@ if (!in_array($requested, $publicPhpRoutes, true)) {
     exit;
 }
 
-$projectRoot = dirname(__DIR__);
 $targetFile = $projectRoot . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $requested);
 
 if (!is_file($targetFile)) {

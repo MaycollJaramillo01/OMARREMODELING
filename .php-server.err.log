@@ -1,0 +1,235 @@
+[Wed Apr 29 22:58:04 2026] PHP 8.3.30 Development Server (http://127.0.0.1:8000) started
+[Wed Apr 29 22:58:05 2026] 127.0.0.1:64037 Accepted
+[Wed Apr 29 22:58:05 2026] 127.0.0.1:64037 Closing
+[Wed Apr 29 22:58:15 2026] 127.0.0.1:64038 Accepted
+[Wed Apr 29 22:58:15 2026] 127.0.0.1:64038 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:61278 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:61278 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:51034 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50406 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:51034 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:56177 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50406 [200]: GET /assets/css/fence-redesign.css
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:60407 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:56177 [200]: GET /assets/img/new/fence-installation-repair.jpeg
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:60407 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:51034 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50406 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:56177 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:60407 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50858 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:62000 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50858 [200]: GET /assets/img/brands/social/whatsapp.svg
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:59032 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:62000 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:59032 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:50858 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:59032 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:57759 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:57759 [200]: GET /assets/img/new/site-15.jpeg
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:57759 Closing
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:49465 Accepted
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:49465 [200]: GET /assets/img/new/site-24.jpeg
+[Thu Apr 30 00:30:08 2026] 127.0.0.1:49465 Closing
+[Thu Apr 30 00:30:09 2026] 127.0.0.1:51645 Accepted
+[Thu Apr 30 00:30:09 2026] 127.0.0.1:51645 Closing
+[Thu Apr 30 00:30:09 2026] 127.0.0.1:56096 Accepted
+[Thu Apr 30 00:30:09 2026] 127.0.0.1:56096 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:09 2026] 127.0.0.1:56096 Closing
+[Thu Apr 30 00:30:10 2026] 127.0.0.1:63274 Accepted
+[Thu Apr 30 00:30:10 2026] 127.0.0.1:63274 [200]: GET /assets/img/new/deck-staining.jpeg
+[Thu Apr 30 00:30:10 2026] 127.0.0.1:63274 Closing
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:54250 Accepted
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56013 Accepted
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:54250 [200]: GET /assets/img/new/fence-installation-repair.jpeg?v=1777509931
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:49185 Accepted
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56013 [200]: GET /assets/img/new/deck-build-repair.jpeg?v=1777509931
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56282 Accepted
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:49185 [200]: GET /assets/img/new/fence-staining.jpeg?v=1777509931
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56282 [200]: GET /assets/img/new/deck-staining.jpeg?v=1777509931
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:54250 Closing
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56013 Closing
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:49185 Closing
+[Thu Apr 30 00:30:12 2026] 127.0.0.1:56282 Closing
+[Thu Apr 30 00:30:32 2026] 127.0.0.1:54411 Accepted
+[Thu Apr 30 00:30:32 2026] 127.0.0.1:54411 [200]: GET /assets/img/new/site-26.jpeg
+[Thu Apr 30 00:30:32 2026] 127.0.0.1:54411 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63308 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63308 [200]: GET /about.php
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63308 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:51424 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63667 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:51424 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63462 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63667 [200]: GET /assets/css/fence-redesign.css
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54909 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63462 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:57147 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54909 [200]: GET /assets/img/brands/social/whatsapp.svg
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:51424 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60060 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:57147 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63667 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60060 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54909 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60060 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:63462 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58617 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58617 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58733 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:56645 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58733 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:56645 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:56645 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54753 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58324 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54753 [200]: GET /assets/img/new/site-24.jpeg
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58324 [200]: GET /assets/img/new/deck-staining.jpeg
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:54753 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:52241 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:52241 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:58324 Closing
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60449 Accepted
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60449 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:34 2026] 127.0.0.1:60449 Closing
+[Thu Apr 30 00:30:35 2026] 127.0.0.1:56841 Accepted
+[Thu Apr 30 00:30:35 2026] 127.0.0.1:56841 Closing
+[Thu Apr 30 00:30:36 2026] 127.0.0.1:55084 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55084 [200]: GET /services.php
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55084 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57689 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57689 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58694 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58694 [200]: GET /assets/css/fence-redesign.css
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50868 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57689 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53722 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50868 [200]: GET /assets/img/new/deck-build-repair.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65520 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53722 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58694 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51305 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65520 [200]: GET /assets/img/brands/social/whatsapp.svg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:56106 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51305 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:56106 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50868 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65520 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:56106 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:54426 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:54426 [200]: GET /assets/img/new/site-14.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53722 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:54426 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57703 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:64690 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57703 [200]: GET /assets/img/new/fence-installation-repair.jpeg?v=1777509931
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:59972 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:64690 [200]: GET /assets/img/new/deck-build-repair.jpeg?v=1777509931
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50392 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:59972 [200]: GET /assets/img/new/fence-staining.jpeg?v=1777509931
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50392 [200]: GET /assets/img/new/deck-staining.jpeg?v=1777509931
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:57703 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:64690 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:59972 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:50392 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65140 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65046 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65140 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65046 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65046 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53584 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53584 [200]: GET /projects.php
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53584 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51838 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51838 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58458 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53869 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58458 [200]: GET /assets/css/fence-redesign.css
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:63092 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53869 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51838 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:56744 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:63092 [200]: GET /assets/img/brands/social/whatsapp.svg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58395 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:56744 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58458 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58395 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:63092 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58395 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:53869 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51077 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51077 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51032 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60794 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55315 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51032 [200]: GET /assets/img/new/fence-installation-repair.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60794 [200]: GET /assets/img/new/deck-build-repair.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60515 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55315 [200]: GET /assets/img/new/fence-staining.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58037 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60515 [200]: GET /assets/img/new/deck-staining.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65334 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58037 [200]: GET /assets/img/new/site-15.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65334 [200]: GET /assets/img/new/site-20.jpeg
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60794 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55315 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:51032 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:60515 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:65334 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58037 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58829 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55045 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:58829 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55045 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:55045 Closing
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:61457 Accepted
+[Thu Apr 30 00:30:37 2026] 127.0.0.1:61457 Closing
+[Thu Apr 30 00:30:38 2026] 127.0.0.1:56178 Accepted
+[Thu Apr 30 00:30:38 2026] 127.0.0.1:56178 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:38 2026] 127.0.0.1:56178 Closing
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:51817 Accepted
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:51817 Closing
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50640 Accepted
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:55149 Accepted
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50640 [200]: GET /assets/img/new/site-32.jpeg
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50060 Accepted
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:55149 [200]: GET /assets/img/new/site-24.jpeg
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50060 [200]: GET /assets/img/new/site-26.jpeg
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50640 Closing
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:55149 Closing
+[Thu Apr 30 00:30:39 2026] 127.0.0.1:50060 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:58221 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:58221 [200]: GET /contact.php
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:58221 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:50742 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:50742 [200]: GET /assets/css/style.css
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54026 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:65003 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54026 [200]: GET /assets/css/fence-redesign.css
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:57095 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:65003 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:50742 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:50723 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:57095 [200]: GET /assets/img/brands/social/whatsapp.svg
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:60930 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:50723 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54026 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:60930 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:57095 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:60930 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:65003 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:63044 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54135 Accepted
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:63044 Closing
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54135 [200]: GET /assets/img/new/site-15.jpeg
+[Thu Apr 30 00:30:43 2026] 127.0.0.1:54135 Closing
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:65219 Accepted
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:65219 [200]: GET /assets/img/logo.png
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:65219 Closing
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:64695 Accepted
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:51503 Accepted
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:64695 Closing
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:51503 [200]: GET /assets/js/main.js
+[Thu Apr 30 00:30:44 2026] 127.0.0.1:51503 Closing
+[Thu Apr 30 00:30:45 2026] 127.0.0.1:54015 Accepted
+[Thu Apr 30 00:30:45 2026] 127.0.0.1:54015 Closing
